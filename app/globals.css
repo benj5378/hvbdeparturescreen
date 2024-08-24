@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Gilroy Bold";
+    src: url("/Gilroy-Bold.ttf");
+}
+
+html {
+    /* color: blue; */
+    font-family: "Gilroy Bold";
+    font-size: 140px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    line-height: 1.5em;
+}
+/* 
+main.large {
+} */
+
+input, button {
+    font-size: 1em;
+    /* max-width: 2em; */
+    width: 100%
+}
+
+input[type="radio"] {
+    height: 0.5em;
+    width: 0.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+.faded {
+    color: rgb(167, 167, 167);
+}
+
+.radios > *:not(:first-child) {
+    margin-left: 0.5em;
+}
+
+.radios > span {
+    white-space: nowrap;
+}
+
+.large {
+    font-size: 1.4em;
+}
+
+.stretch {
+    display: flex;
+}
+
+div {
+    margin-bottom: 0.3em;
+}
